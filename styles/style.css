@@ -106,12 +106,10 @@ body {
   left: calc(1593 / 1920 * 100%);
 }
 
-.button .collapsed,
-.button.active .expanded {
-  display: inline;
+.button .button__text {
+  display: none;
 }
 
-.button .expanded,
-.button.active .collapsed {
-  display: none;
+.button.active .button__text {
+  display: inline;
 }

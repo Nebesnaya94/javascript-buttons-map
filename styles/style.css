@@ -5,6 +5,10 @@ body {
   line-height: 16px;
 }
 
+* {
+  cursor: url("../images/cursor_custom.png"), auto;
+}
+
 .map {
   position: relative;
   min-width: 1280px;
@@ -44,6 +48,7 @@ body {
   background: #3877eeb3;
 }
 
+.button_blue:hover,
 .button_blue.active {
   background: #3877ee;
 }
@@ -52,6 +57,7 @@ body {
   background: #6abf4bb3;
 }
 
+.button_green:hover,
 .button_green.active {
   background: #6abf4b;
 }
